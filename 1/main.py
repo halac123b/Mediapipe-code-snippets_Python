@@ -8,6 +8,7 @@ img = img.convert("RGB")
 img = np.array(img)
 
 # FaceMesh detection module of Mediapipe
+## solutions: chứa các model đã đc train sẵn của Mediapipe
 ## static_image_mode: ảnh tĩnh chứ k phải video
 ## refine_landmarks: lọc lại giá trị landmark, tăng độ chính xác nhưng nặng performance, vì dùng ảnh tĩnh nên k cần
 ## max_num_faces: số face tối đa cần detect là 1
