@@ -1,6 +1,6 @@
 # Mediapipe-code-snippets_Python
 
-<p>Folder list:</p>
-<ol>
-  <li>Face detection</li>
-</ol>
+Folder list:
+
+1. Face mesh detection
+2. Hair segmentation

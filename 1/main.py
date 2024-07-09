@@ -3,7 +3,7 @@ import PIL
 import numpy as np
 
 # Read image and convert to Numpy array
-img = PIL.Image.open("test2.png")
+img = PIL.Image.open("../assets/images/test2.png")
 img = img.convert("RGB")
 img = np.array(img)
 
